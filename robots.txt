@@ -1,4 +1,5 @@
 User-agent: *
 Allow: /
 
+Sitemap: https://bivlked.github.io/sitemap.xml
 Sitemap: https://bivlked.github.io/amneziawg-installer/sitemap.xml

@@ -1,5 +1,7 @@
 User-agent: *
 Allow: /
+Disallow: /target-assistant-bot/_sources/
+Disallow: /target-assistant-bot/_modules/
 
 Sitemap: https://bivlked.github.io/sitemap.xml
 Sitemap: https://bivlked.github.io/amneziawg-installer/sitemap.xml

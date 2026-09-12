@@ -1,9 +1,15 @@
+# Crawl only the amneziawg-installer site, the root hub and the files the
+# domain needs (favicon, sitemaps). Everything else on this domain is closed.
 User-agent: *
-Allow: /
-Disallow: /target-assistant-bot/_sources/
-Disallow: /target-assistant-bot/_modules/
-Disallow: /target-assistant-bot/search.html
-Disallow: /target-assistant-bot/genindex.html
+Allow: /$
+Allow: /amneziawg-installer/
+Allow: /amneziawg-installer$
+Allow: /assets/habr/
+Allow: /favicon.ico
+Allow: /favicon.svg
+Allow: /apple-touch-icon.png
+Allow: /sitemap.xml
+Disallow: /
 
 Sitemap: https://bivlked.github.io/sitemap.xml
 Sitemap: https://bivlked.github.io/amneziawg-installer/sitemap.xml
